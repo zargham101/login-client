@@ -7,7 +7,7 @@ import { profileValidation } from '../helpers/validate';
 import convertToBase64 from '../helpers/convert';
 
 import styles from '../styles/Username.module.css';
-import extend from '../styles/Profile.module.css';
+// import extend from '../styles/Profile.module.css';
 
 export default function Profile() {
 

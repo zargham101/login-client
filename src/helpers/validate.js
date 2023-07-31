@@ -42,7 +42,7 @@ export async function registerValidation(values) {
 
 /**password validation function */
 function passwordVerify(error = {}, values) {
-    const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+    const specialChars = /[`!@#$%^&*()_+-=[\]{};':"|,.<>?~]/;
 
     if (!values.password) {
         error.username = toast.error("password required...!")
