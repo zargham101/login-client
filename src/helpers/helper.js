@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-// axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'http://localhost:8080';
 
 export async function authentication(username) {
     try {
